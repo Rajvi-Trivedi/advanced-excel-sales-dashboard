@@ -1,141 +1,134 @@
-PRACTICAL. 2 – Analyzer: Advanced Excel Data Analysis and Visualization
+# Advanced Sales Data Analysis & Visualization – Excel Dashboard
 
-Objective
+## Project Overview
 
-The objective of this project is to perform advanced data analysis and visualization using Microsoft Excel. The project focuses on analytical techniques such as conditional formatting, WHAT-IF analysis, regression analysis, descriptive statistics, pivot tables, dashboards, and data storytelling to extract meaningful business insights from customer sales data.
+This project demonstrates advanced data analysis and visualization using Microsoft Excel. It transforms customer-level sales data into structured insights through statistical analysis, scenario modeling, pivot reporting, and interactive dashboard design.
 
-Dataset Description
+The objective is to apply analytical techniques to evaluate sales performance, profitability, discount impact, and customer contribution for informed business decision-making.
 
-The dataset contains customer-level sales information with the following fields:
+---
 
-Customer_ID
+## Dataset Description
 
-Customer_Name
+The dataset contains structured customer sales information including:
 
-Region
+* Customer_ID
+* Customer_Name
+* Region
+* Product_Category
+* Sales
+* Quantity
+* Discount
+* Order_Date
+* Profit
 
-Product_Category
+---
 
-Sales
+## Tools & Features Used
 
-Quantity
+* Microsoft Excel
+* Conditional Formatting
+* WHAT-IF Analysis (Scenario Manager)
+* Data Analysis Toolpak
+* Pivot Tables & Pivot Charts
+* Advanced Excel Formulas
+* Dashboard Design & Data Storytelling
 
-Discount
+---
 
-Order_Date
+## Key Analytical Tasks Performed
 
-Profit
+### 1. Conditional Formatting
 
-Tools and Features Used
+* Highlighted Top 10 customers based on total purchase value
+* Visual identification of high-value revenue contributors
 
-Microsoft Excel
+### 2. WHAT-IF Analysis (Discount Impact on Profit)
 
-Conditional Formatting
+* Created multiple discount scenarios:
 
-WHAT-IF Analysis (Scenario Manager)
+  * No Discount
+  * Moderate Discount
+  * High Discount
+* Generated Scenario Summary for comparative evaluation
+* Analyzed impact of discount strategies on profitability
 
-Data Analysis Toolpak
+### 3. Linear Regression Analysis
 
-Pivot Tables and Charts
+* Performed regression using Data Analysis Toolpak
+* Evaluated relationship between Sales (independent variable) and Profit (dependent variable)
+* Interpreted regression coefficients and R-square value
 
-Advanced Excel formulas
+### 4. Descriptive Statistics
 
-Dashboard Design
+* Calculated:
 
-Tasks Performed
+  * Mean
+  * Median
+  * Standard Deviation
+  * Minimum & Maximum values
+* Conducted statistical evaluation of Sales and Profit distribution
 
-Conditional Formatting
-Applied conditional formatting to highlight the top 10 customers based on total purchase value.
+### 5. Monthly Sales Growth Analysis
 
-Used summary data to visually identify high-value customers.
+* Computed month-wise sales growth
+* Applied arrow-based conditional formatting to indicate growth trends
 
-WHAT-IF Analysis (Impact of Discount on Profit)
-Used Scenario Manager to analyze profit changes under different discount levels.
+### 6. Timestamp Automation
 
-Created scenarios such as No Discount, Moderate Discount, and High Discount.
+* Implemented dynamic timestamp using `NOW()`
+* Enabled tracking of analysis update time
 
-Generated a Scenario Summary for comparison.
+### 7. High-Value Customer Identification
 
-Linear Regression Analysis
-Performed linear regression using the Data Analysis Toolpak.
+* Used advanced formulas:
 
-Analyzed the relationship between Sales (independent variable) and Profit (dependent variable).
+  * `INDEX`
+  * `MATCH`
+  * `FILTER`
+* Identified customers contributing the highest revenue
 
-Interpreted regression coefficients and R-square value.
+### 8. Pivot Table Analysis
 
-Descriptive Statistics
-Generated descriptive statistics for key variables such as Sales and Profit.
+* Region-wise total sales
+* Product category performance
+* Used pivot tables as foundation for dashboard reporting
 
-Calculated mean, median, standard deviation, minimum, and maximum values.
+---
 
-Used results for advanced descriptive analytics.
+## Data Visualization & Dashboard
 
-Monthly Sales Growth with Arrows
-Calculated month-wise sales growth.
+Created an interactive dashboard including:
 
-Applied custom conditional formatting with up/down arrows to indicate growth trends.
+* Total Sales
+* Total Profit
+* Top Customers
+* Regional Sales Comparison (Bar Chart)
+* Monthly Sales Trend (Line Chart)
+* Category Contribution (Pie Chart)
 
-Timestamp Creation
-Added a timestamp column using the NOW() function.
+The dashboard integrates analytical outputs into structured business storytelling.
 
-Used to track the last updated time of analysis.
+---
 
-High-Value Customer Identification
-Identified high-value customers using:
+## Key Insights
 
-INDEX
+* A small segment of customers contributes disproportionately to total revenue
+* Excessive discounts negatively impact profitability
+* Sales and profit demonstrate a positive linear relationship
+* Certain regions and product categories consistently outperform others
 
-MATCH
+---
 
-FILTER
+## Conclusion
 
-Combined total sales data to extract customers contributing maximum revenue.
+This project showcases advanced Excel capabilities including statistical analysis, scenario modeling, regression, pivot reporting, and dashboard development. It demonstrates the ability to transform structured sales data into actionable business insights using analytical and visualization techniques.
 
-Pivot Table Analysis
-Created pivot tables to analyze:
+---
 
-Total sales by region
+## Author
 
-Total sales by product category
+Rajvi Trivedi
+Data Analyst | Business Analyst
 
-Used pivot tables as a base for charts and dashboard visuals.
-
-Data Visualization
-Created the following charts:
-
-Bar Chart for regional sales comparison
-
-Line Chart for monthly sales trend
-
-Pie Chart for product category contribution
-
-Visualized key performance indicators effectively.
-
-Dashboard and Data Storytelling
-Designed an interactive dashboard summarizing:
-
-Total Sales
-
-Total Profit
-
-Top Customers
-
-Sales Trends
-
-Presented insights using charts and pivot tables.
-
-Provided data-driven business interpretations.
-
-Insights and Observations
-
-A small group of customers contributes significantly to total revenue.
-
-Higher discounts negatively impact profit beyond a threshold.
-
-Sales and profit show a positive linear relationship.
-
-Certain regions and product categories outperform others consistently.
-
-Conclusion
-
-This project demonstrates the use of advanced Excel features for data analysis, visualization, and business insight generation. The Analyzer project integrates analytical tools, formulas, and dashboards to support informed decision-making through data storytelling.
+---
